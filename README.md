@@ -2,7 +2,7 @@
 ![Tt (1000 x 500 piksel)](https://github.com/user-attachments/assets/e628a182-f128-465a-93de-c78d869c4d48)
 # TEAM NAME: TOXITECH TEAM
 
-# TEAM MEMBERS
+## TEAM MEMBERS
 | Member Name     | Member Task     | Linkedln     |
 |--------------|--------------|--------------|
 | Kadriye Nidanur CABBAR | Scrum Master/ Developer | www.linkedin.com/in/knidanurcabbar/ |
