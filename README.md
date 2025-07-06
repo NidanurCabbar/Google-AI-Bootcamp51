@@ -1,7 +1,6 @@
 # Google-AI-Bootcamp51
 ![Tt (1000 x 500 piksel)](https://github.com/user-attachments/assets/e628a182-f128-465a-93de-c78d869c4d48)
-# TEAM NAME
-TOXITECH TEAM
+# TEAM NAME: TOXITECH TEAM
 
 # TEAM MEMBERS
 | Member Name     | Member Task     | Linkedln     |
