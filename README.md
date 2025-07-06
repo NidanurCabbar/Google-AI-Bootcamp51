@@ -144,6 +144,11 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler
 
 # Jira link : [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
 
+# Mobile App Template
+![WhatsApp Image 2025-07-06 at 18 09 16](https://github.com/user-attachments/assets/1a95a861-ef91-4697-b422-83ebc07a8444)
+
+# Mobil App First Mockup
+![WhatsApp Image 2025-07-06 at 19 08 07](https://github.com/user-attachments/assets/dd55c239-df32-4cc1-af54-e8b1a95c603c)
 
 </details>
 
