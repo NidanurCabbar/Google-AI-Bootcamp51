@@ -59,21 +59,21 @@
 
 # Application Flow
   # 1. Giriş Ekranı
-    * Kayıt Ol / Giriş Yap
-    * Devam Et (ziyaretçi olarak)
+  * Kayıt Ol / Giriş Yap
+  * Devam Et (ziyaretçi olarak)
   # 2. Ana Sayfa
-    * Ürün tara / içerik gir
-    * Son analizler
-    * Günün önerisi
+  * Ürün tara / içerik gir
+  * Son analizler
+  * Günün önerisi
   # 3. Analiz Sonuç Sayfası
-    * Riskli maddeler listesi
-    * Renkli risk etiketi
-    * Yapay zekâ önerileri
-    * Sağlıklı alternatif ürünler
+  * Riskli maddeler listesi
+  * Renkli risk etiketi
+  * Yapay zekâ önerileri
+  * Sağlıklı alternatif ürünler
   # 4. Profil Sayfası
-    * Kişisel bilgiler, hassasiyetler
-    * Geçmiş görüntüleme
-    * Bildirim ve tercih kontrolü
+  * Kişisel bilgiler, hassasiyetler
+  * Geçmiş görüntüleme
+  * Bildirim ve tercih kontrolü
 </details>
 
 <details>
