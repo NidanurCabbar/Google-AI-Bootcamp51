@@ -152,6 +152,8 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler
 ## Mobil App First Mockup
 ![WhatsApp Image 2025-07-06 at 19 30 39](https://github.com/user-attachments/assets/f19711dc-a8b6-4b18-aca9-876dc5e0936d)
 
+## Sprint 1 Burndown Chart
+[Sprint1_Burndown_Chart_Custom.xlsx](https://github.com/user-attachments/files/21090640/Sprint1_Burndown_Chart_Custom.xlsx)
 
 </details>
 
