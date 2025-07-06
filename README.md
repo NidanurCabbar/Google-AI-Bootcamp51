@@ -14,7 +14,11 @@
   <summary>Product Description</summary>
   ToxTrackAI, kullanıcıların ürün içeriklerini mobil kameralarıyla veya manuel giriş yoluyla sisteme aktararak, yapay zekâ destekli toksisite analizi almalarını sağlayan bir bilinçli tüketim destek platformudur.
  Uygulama, ürün içeriğindeki katkı maddelerini analiz eder, toksik maddeleri tespit eder, kullanıcıya risk değerlendirmesi, sağlıklı alternatif önerileri ve kişiselleştirilmiş bildirimler sunar.
-  
+
+</details>
+
+<details>
+  <summary>Product Specifications</summary>
 # Primary Functions
 * İçerik tarama (kamera veya manuel)
   
@@ -25,12 +29,51 @@
 * Ürün risk skoru hesaplama
   
 * Kişiselleştirilmiş analiz (profil temelli)
+
+# Seconder Functions
+* Tüketim günlüğü
+    
+* Haftalık veya aylık trend analizi
+    
+* LLM destekli soru-cevap modülü
+    
+* İçerik uyarı sistemi
+    
+* Topluluk verisi ile içerik haritası
+    
+* Kişisel tüketim raporu çıktısı (PDF)
+
+# User Types
+* Ziyaretçi (kayıtsız kullanıcı): Sadece analiz alabilir, geçmiş kaydı tutulmaz
   
-</details>
+* Kayıtlı kullanıcı: Kişisel profil, geçmiş, ayarlar, öneriler özelleştirilebilir
 
-<details>
-  <summary>Product Specifications</summary>
+# Profile Features(Registered User Only)
+* Kullanıcı bilgileri (ad, fotoğraf)
+  
+* Sağlık tercihleri (alerji, diyet kısıtları)
+  
+* Bildirim ve analiz ayarları
+  
+* Kişisel geçmiş görüntüleme
 
+# Application Flow
+  # 1. Giriş Ekranı
+    * Kayıt Ol / Giriş Yap
+    * Devam Et (ziyaretçi olarak)
+  # 2. Ana Sayfa
+    * Ürün tara / içerik gir
+    * Son analizler
+    * Günün önerisi
+  # 3. Analiz Sonuç Sayfası
+    * Riskli maddeler listesi
+    * Renkli risk etiketi
+    * Yapay zekâ önerileri
+    * Sağlıklı alternatif ürünler
+  # 4. Profil Sayfası
+    * Kişisel bilgiler, hassasiyetler
+    * Geçmiş görüntüleme
+    * Bildirim ve tercih kontrolü
 </details>
 
 <details>
