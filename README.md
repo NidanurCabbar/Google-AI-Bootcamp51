@@ -177,9 +177,22 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son düzenlemel
  * Edanur Tesim
    
 ## Sprint Retrospective
- * Araştırmaları iyi yapıp ve ekip içi iyi iletişim kurarak dünyada henüz hiç yapılmamış bir uygulama projesini bulmak motive edici oldu.
- * Toplantıları sık yapmak daha faydalı olabilirdi.
- * Görevlendirmeleri iyi yaptık fakat görevleri zamana yaymada bazı aksaklıklar yaşadık.
+Neler iyi gitti?
+* Proje fikri net, problem tanımı güçlü bir şekilde belirlendi.
+* Ürün tanımı, birincil ve ikincil fonksiyonlar detaylandırıldı.
+* Kullanıcı tipleri ve erişim seviyeleri netleştirildi (kayıtlı/kayıtsız kullanıcı ayrımı).
+* Uygulama akışları açık şekilde planlandı ve app map şeması hazırlandı.
+* Takım içi iletişim verimliydi, karar alma süreçlerinde tüm üyeler etkindi.
+
+Neler geliştirilebilir?
+* Zaman yönetimi ve görev dağılımı daha planlı yapılabilirdi.
+* Kavramsal süreçler ön planda kaldı, ürün geliştirmeye daha erken aşamada başlanabilirdi.
+* Daha fazla çıktı üretmeye odaklanılarak sprint sonunda çalışır bir prototip hedeflenebilirdi.
+
+Sonraki sprintte neyi farklı yapacağız?
+* MVP odaklı ilerleyip fonksiyonları parça parça entegre edeceğiz (öncelikle manuel içerik girişi + risk analizi).
+* Erken aşamada çalışan basit bir demo çıkarmaya odaklanacağız.
+* Teknik görevleri haftalık hedeflere bölerek daha ölçülebilir ilerleme sağlayacağız.
 </details>
 
 <details>
