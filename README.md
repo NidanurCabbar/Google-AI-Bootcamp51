@@ -121,7 +121,7 @@ Ne tür bir proje yapabileceğimiz üzerine konuştuk.
 Project backlog ve planlamalar için Jira üzerinden ilerlemeye karar verdik.
 Bir sonraki toplantıya kadar en az iki proje fikri bulmak üzere sözleşip görüşmemizi bitirdik.
 
-  * İKİNCİ TOPLANTI (2 Haziran 2025)
+  * İKİNCİ TOPLANTI (2 Temmuz 2025)
 Jira üzerinden tanımladığımız task içine not aldığımız proje fikirleri üzerine tartıştık. Hangisinin daha yapılabilir, sektörde yer edebilir ve nasıl özellikleri olabileceği üzerine tartıştık.
 Üzerine konuştuğumuz proje fikirleri şunlardır:
 Sağlıklı yaşam asistanı görevi görecek bir chatbot
