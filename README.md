@@ -15,6 +15,22 @@
   ToxTrackAI, kullanıcıların ürün içeriklerini mobil kameralarıyla veya manuel giriş yoluyla sisteme aktararak, yapay zekâ destekli toksisite analizi almalarını sağlayan bir bilinçli tüketim destek platformudur.
  Uygulama, ürün içeriğindeki katkı maddelerini analiz eder, toksik maddeleri tespit eder, kullanıcıya risk değerlendirmesi, sağlıklı alternatif önerileri ve kişiselleştirilmiş bildirimler sunar.
 
+  # Örnek Senaryolar
+  * Kullanıcı 1: Ayşe, 32 yaşında, sağlıklı, doğal ürünler kullanmaya dikkat eden, yaşam tarzı olarak sürdürülebilirliği benimsemeye çalışan ve ilk çocuğuna hamile olan genç bir kadın. Hamileliği esnasında, olduğunca kimyasallardan ve potansiyel toksin maddelerden uzak durmuş ve bebeğine hazırlayacağı oda için de benzer hassasiyeti sürdürmek istiyor.
+  
+ Senaryo: Ayşe, bebeğinin odasını hazırlarken büyük bir mobilya ve ev dekorasyonu mağazasına beşik, bebek altı değiştirme ünitesi, şifonyer gibi bebek odasının ana eşyalarını satın almak için gidiyor. Estetik açıdan hoşuna giden bir beşik bulmasıyla birlikte burnuna ağır bir boya kokusu geliyor ve içinde zararlı kimyasallar olup olmadığını merak ediyor. Ayrıca alacağı diğer ürünler için de “Acaba bebeğimin sağlığı için zararlı olur mu?” diye düşünüyor. Bu noktada geçen günlerde arkadaşının sohbet esnasında söylediği “ToxTrackAI” uygulaması aklına geliyor ve uygulamayı telefonundaki uygulama marketinden indirip satın alacağı ürünün etiketini okutur. Burada ürünlerin kimyasal içeriğine dair bilgi alırken, “çocuk mobilyaları için belirlenmiş güvenlik standartlarına uygun ve düşük VOC emisyonlu" olduğunu belirten yeşil bir uyarı görür. Ayşe derin bir nefes alır.
+ 
+ * Kullanıcı 2: Erdem, 24 yaşında, vegan beslenen ve hassas bir cilde sahip olması sebebiyle cilt bakımında kullandığı ürünlerin içeriklerinin doğal olmasına dikkat eden genç bir erkek.
+ 
+ Senaryo: Erdem, yeni bir cilt temizleme jeli ve yüz kremi almak istiyor. Fakat, çoğu cilt bakım ürününün içeriğinde paraben, silikon ve hayvansal kaynaklı maddeler bulunduğu için kişisel bakım marketlerine gittiğinde her ürünün etiketinde yazan kimyasalları teker teker arama motorunda aratarak çok fazla vakit kaybetmekle birlikte net bir sonuca ulaşamamaktadır. Bu dertten muzdaripken sosyal medyada karşısına “ToxTrackAI” uygulamasının reklamı çıkar, bu uygulamanın işine çok yarayacak bir uygulama olduğunu düşünür ve indirir. Uygulamanın içine girdiğinde onu bilgilendiren bir sayfanın yanısıra cilt bakım ürünlerinin etiketlerini okutup içerikleri hakkında bilgi alabileceği bir etiket okutma bölümünün olduğunu görür ve bu uygulamanın hassas bir cilde sahip biri olarak hayatında elzem bir yerde olduğunu düşünür. Erdem böylelikle hem cilt sağlığını koruyor hem de değerlerine uygun alışveriş yapmanın rahatlığını yaşıyor.
+ 
+ * Kullanıcı 3: Deniz, 40 yaşında, çevre bilincine sahip ve çocuklu bir aile reisi. Evde kullandığı temizlik ürünlerinin hem aile sağlığına hem de çevreye zarar vermemesine özen gösteriyor.
+ 
+ Senaryo: Deniz, ev temizliğinde kullanmak için yeni bir yüzey temizleyici almak istiyor. Ancak marketteki ambalajlarda yazan içerikler çok teknik ve karmaşık olduğu için hangi ürünün toksik olmadığını anlamakta zorlanıyor. Çevresinde toksik kimyasalların çocuklarının sağlığına zarar verebileceğine dair haberler duymasıyla birlikte, daha güvenli ürünler kullanmak istiyor. Bu konu üzerine araştırma yaparken, “ToxTrackAI” ile karşılaşıyor ve telefonuna indiriyor. Daha sonrasında markete gittiğinde, ürünün etiketini uygulamanın içerisinde bulunan kameraya taratmasıyla ürünün içeriğindeki kimyasalların hangilerinin sağlık açısından risk oluşturup, oluşturmayacağına dair bilgileniyor. Ayrıca çocukların bulunduğu ev ortamına uygun olduğunu belirten yeşil uyarı veriyor. Böylelikle Deniz, markette ürünlerin içeriğini okumakla saatler harcamak yerine bu vakti çocuklarıyla geçirebiliyor.
+
+ Dünyada milyonlarca insan tüketim çılgınlığından dolayı ne tükettiklerinin farkında olmuyorlar. Dünya Sağlık Örgütü (DSÖ) verilerine göre, dünya genelinde her yıl ortalama 600 milyon kişi gıda kaynaklı hastalıklar nedeniyle etkileniyor. Bu vakaların yaklaşık 420.000'i ölümle sonuçlanıyor. Özellikle 5 yaş altı çocuklar, gıda kaynaklı hastalıklardan en çok etkilenen grup. DSÖ'ye göre, her yıl 5 yaş altı çocuklardan 125.000'i gıda kaynaklı hastalıklardan hayatını kaybediyor.  Ağır metaller (kurşun, cıva vb.), pestisitler ve doğal toksinler (mantar toksinleri gibi) gibi kimyasal maddeler de gıdalarda zehirlenmelere yol açabilir. Örneğin, kurşun maruziyeti 2019'da dünya genelinde 2 milyondan fazla kimyasal maruziyet kaynaklı ölümün yaklaşık yarısından sorumluydu. Kurşun, çevresel kaynaklardan ve gıda işleme ve ambalajlamadan gıdalara bulaşabiliyor. Asidik gıdalar ve içecekler, temas ettikleri malzemelerden kurşun sızdırma olasılığı taşıyor.
+Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediyorlar. İnsanların bu konuda daha bilinçli ve seçici olmaları sağlıklı yaşam için önem arz etmektedir. ToxTrackAI, insanların rahatça kullanabilecekleri ve sağlıkları için bilinçli alışveriş yapabilecekleri olanağı sağlamayı amaçlıyor. “Önemli olan hasta olmamaya çalışmaktır.” ilkesiyle insanların sağlıklarına daha fazla önem verebilmelerinde yardımcı olan bir dost oluyor.
+
 </details>
 
 <details>
@@ -31,13 +47,9 @@
 * Kişiselleştirilmiş analiz (profil temelli)
 
 # Seconder Functions
-* Tüketim günlüğü
-    
 * Haftalık veya aylık trend analizi
     
 * LLM destekli soru-cevap modülü
-    
-* İçerik uyarı sistemi
     
 * Topluluk verisi ile içerik haritası
     
@@ -78,7 +90,21 @@
 
 <details>
   <summary>Target group</summary>
+ * Sağlık bilinci yüksek tüketiciler (doğal, organik ürünleri tercih edenler)
+  
+ * Alerjisi veya özel diyeti olan bireyler (gluten, laktoz, MSG vb. hassasiyeti olanlar)
+   
+ * Ebeveynler (bebek ve çocuk ürünlerinde güvenlik arayanlar)
+   
+ * Vegan ve hassas cilde sahip genç yetişkinle
+   
+ * Fitness ve diyet takipçileri
+   
+ * Evcil hayvan sahipleri (hayvan sağlığına duyarlı tüketiciler)
 
+ * Çevre bilinci yüksek bireyler (eko-dostu ürünleri tercih edenler)
+   
+ * Gençler ve Z kuşağı (mobil uygulama kullanımı yüksek, sosyal bilinçli kullanıcılar
 </details>
 
 ![sprints](https://github.com/user-attachments/assets/76cfd4b1-adbf-426b-9cf8-88dbe4d476ba)
