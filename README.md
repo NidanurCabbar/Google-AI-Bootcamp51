@@ -177,7 +177,9 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son düzenlemel
  * Edanur Tesim
    
 ## Sprint Retrospective
-
+ * Araştırmaları iyi yapıp ve ekip içi iyi iletişim kurarak dünyada henüz hiç yapılmamış bir uygulama projesini bulmak motive edici oldu.
+ * Toplantıları sık yapmak daha faydalı olabilirdi.
+ * Görevlendirmeleri iyi yaptık fakat görevleri zamana yaymada bazı aksaklıklar yaşadık.
 </details>
 
 <details>
