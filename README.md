@@ -30,14 +30,14 @@
 <details>
   <summary>SPRINT 1</summary>
   
-* Daily Scrum
-  İlk Toplantı (27 Haziran 2025) 
+# Daily Scrum
+  * İLK TOPLANTI (27 Haziran 2025) 
 İlk toplantımızda ekip olarak tanıştık.
 Ne tür bir proje yapabileceğimiz üzerine konuştuk.
 Project backlog ve planlamalar için Jira üzerinden ilerlemeye karar verdik.
 Bir sonraki toplantıya kadar en az iki proje fikri bulmak üzere sözleşip görüşmemizi bitirdik.
 
-  İkinci Toplantı (2 Haziran 2025)
+  * İkinci Toplantı (2 Haziran 2025)
 Jira üzerinden tanımladığımız task içine not aldığımız proje fikirleri üzerine tartıştık. Hangisinin daha yapılabilir, sektörde yer edebilir ve nasıl özellikleri olabileceği üzerine tartıştık.
 Üzerine konuştuğumuz proje fikirleri şunlardır:
 Sağlıklı yaşam asistanı görevi görecek bir chatbot
@@ -49,16 +49,16 @@ Günlük yenilen yiyeceklerin kalori ve besin değerlerinin takibinin yapılaca�
 Mentora, öğrencilerin anlamadığı ders konularını yapay zekâ destekli şekilde sadeleştirerek anlatan, aynı zamanda günlük duygu durumunu analiz ederek ona özel motivasyon ve destek sunan kişisel bir öğrenme asistanı
 Birkaç fikri eledikten sonra Whatsapp üzerinden oylama ile en çok tercih ettiğimiz proje fikirlerini belirlemeye ardından bu projeler üzerine araştırma yapıp nihai proje planımızı ortaya koymak üzere toplantı yapmaya karar verdik.
 
-* Meeting screenshots
+# Meeting screenshots
   ![Ekran Görüntüsü (715)](https://github.com/user-attachments/assets/9eaa359a-0fd3-4bc9-b382-6ad4dcfb1513)
   ![Ekran Görüntüsü (812)](https://github.com/user-attachments/assets/db6e9d06-b420-45a1-8eff-bf6f0aec6aac)
 
-* Jira screenshots
+# Jira screenshots
   ![Ekran Görüntüsü (713)](https://github.com/user-attachments/assets/cf0f13e3-0680-4923-ba2b-0eec0cdd28ca)
   ![Ekran Görüntüsü (714)](https://github.com/user-attachments/assets/92342b46-c62b-4e27-b4a1-5b6a140453b3)
   ![Ekran Görüntüsü (716)](https://github.com/user-attachments/assets/2e940732-0537-4e25-b76e-b54660fc212d)
 
-* Jira link : https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9
+# Jira link : https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9
 
 </details>
 
