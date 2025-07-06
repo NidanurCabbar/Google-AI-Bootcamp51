@@ -133,7 +133,7 @@ Günlük yenilen yiyeceklerin kalori ve besin değerlerinin takibinin yapılaca�
 Mentora, öğrencilerin anlamadığı ders konularını yapay zekâ destekli şekilde sadeleştirerek anlatan, aynı zamanda günlük duygu durumunu analiz ederek ona özel motivasyon ve destek sunan kişisel bir öğrenme asistanı
 Birkaç fikri eledikten sonra Whatsapp üzerinden oylama ile en çok tercih ettiğimiz proje fikirlerini belirlemeye ardından bu projeler üzerine araştırma yapıp nihai proje planımızı ortaya koymak üzere toplantı yapmaya karar verdik.
   * ÜÇÜNCÜ TOPLANTI (6 Haziran 2025)
-Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler için görev dağılımı yaptık. Whatsapp üzerinden ilerlemeye devam ettik. 
+Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son düzenlemeler için görev dağılımı yaptık. Whatsapp üzerinden ilerlemeye devam ettik. 
 
 ## Meeting screenshots
   ![Ekran Görüntüsü (715)](https://github.com/user-attachments/assets/9eaa359a-0fd3-4bc9-b382-6ad4dcfb1513)
