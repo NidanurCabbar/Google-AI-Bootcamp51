@@ -91,7 +91,8 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
 
 <details>
   <summary>Target group</summary>
- * Sağlık bilinci yüksek tüketiciler (doğal, organik ürünleri tercih edenler)
+ 
+  * Sağlık bilinci yüksek tüketiciler (doğal, organik ürünleri tercih edenler)
   
  * Alerjisi veya özel diyeti olan bireyler (gluten, laktoz, MSG vb. hassasiyeti olanlar)
    
