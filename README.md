@@ -15,7 +15,7 @@
   ToxTrackAI, kullanıcıların ürün içeriklerini mobil kameralarıyla veya manuel giriş yoluyla sisteme aktararak, yapay zekâ destekli toksisite analizi almalarını sağlayan bir bilinçli tüketim destek platformudur.
  Uygulama, ürün içeriğindeki katkı maddelerini analiz eder, toksik maddeleri tespit eder, kullanıcıya risk değerlendirmesi, sağlıklı alternatif önerileri ve kişiselleştirilmiş bildirimler sunar.
 
-  # Örnek Senaryolar
+  ## Örnek Senaryolar
   * Kullanıcı 1: Ayşe, 32 yaşında, sağlıklı, doğal ürünler kullanmaya dikkat eden, yaşam tarzı olarak sürdürülebilirliği benimsemeye çalışan ve ilk çocuğuna hamile olan genç bir kadın. Hamileliği esnasında, olduğunca kimyasallardan ve potansiyel toksin maddelerden uzak durmuş ve bebeğine hazırlayacağı oda için de benzer hassasiyeti sürdürmek istiyor.
   
  Senaryo: Ayşe, bebeğinin odasını hazırlarken büyük bir mobilya ve ev dekorasyonu mağazasına beşik, bebek altı değiştirme ünitesi, şifonyer gibi bebek odasının ana eşyalarını satın almak için gidiyor. Estetik açıdan hoşuna giden bir beşik bulmasıyla birlikte burnuna ağır bir boya kokusu geliyor ve içinde zararlı kimyasallar olup olmadığını merak ediyor. Ayrıca alacağı diğer ürünler için de “Acaba bebeğimin sağlığı için zararlı olur mu?” diye düşünüyor. Bu noktada geçen günlerde arkadaşının sohbet esnasında söylediği “ToxTrackAI” uygulaması aklına geliyor ve uygulamayı telefonundaki uygulama marketinden indirip satın alacağı ürünün etiketini okutur. Burada ürünlerin kimyasal içeriğine dair bilgi alırken, “çocuk mobilyaları için belirlenmiş güvenlik standartlarına uygun ve düşük VOC emisyonlu" olduğunu belirten yeşil bir uyarı görür. Ayşe derin bir nefes alır.
@@ -36,7 +36,7 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
 <details>
   <summary>Product Specifications</summary>
   
-# Primary Functions
+## Primary Functions
 * İçerik tarama (kamera veya manuel)
   
 * Toksisite analizi
@@ -47,7 +47,7 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
   
 * Kişiselleştirilmiş analiz (profil temelli)
 
-# Seconder Functions
+## Seconder Functions
 * Haftalık veya aylık trend analizi
     
 * LLM destekli soru-cevap modülü
@@ -56,12 +56,12 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
     
 * Kişisel tüketim raporu çıktısı (PDF)
 
-# User Types
+## User Types
 * Ziyaretçi (kayıtsız kullanıcı): Sadece analiz alabilir, geçmiş kaydı tutulmaz
   
 * Kayıtlı kullanıcı: Kişisel profil, geçmiş, ayarlar, öneriler özelleştirilebilir
 
-# Profile Features(Registered User Only)
+## Profile Features(Registered User Only)
 * Kullanıcı bilgileri (ad, fotoğraf)
   
 * Sağlık tercihleri (alerji, diyet kısıtları)
@@ -71,19 +71,19 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
 * Kişisel geçmiş görüntüleme
 
 # Application Flow
-  # 1. Giriş Ekranı
+  ## 1. Giriş Ekranı
   * Kayıt Ol / Giriş Yap
   * Devam Et (ziyaretçi olarak)
-  # 2. Ana Sayfa
+  ## 2. Ana Sayfa
   * Ürün tara / içerik gir
   * Son analizler
   * Günün önerisi
-  # 3. Analiz Sonuç Sayfası
+  ## 3. Analiz Sonuç Sayfası
   * Riskli maddeler listesi
   * Renkli risk etiketi
   * Yapay zekâ önerileri
   * Sağlıklı alternatif ürünler
-  # 4. Profil Sayfası
+  ## 4. Profil Sayfası
   * Kişisel bilgiler, hassasiyetler
   * Geçmiş görüntüleme
   * Bildirim ve tercih kontrolü
@@ -113,7 +113,7 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
 <details>
   <summary>SPRINT 1</summary>
   
-# Daily Scrum
+## Daily Scrum
   * İLK TOPLANTI (27 Haziran 2025) 
 İlk toplantımızda ekip olarak tanıştık.
 Ne tür bir proje yapabileceğimiz üzerine konuştuk.
@@ -134,21 +134,21 @@ Birkaç fikri eledikten sonra Whatsapp üzerinden oylama ile en çok tercih etti
   * ÜÇÜNCÜ TOPLANTI (6 Haziran 2025)
 Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler için görev dağılımı yaptık. Whatsapp üzerinden ilerlemeye devam ettik. 
 
-# Meeting screenshots
+## Meeting screenshots
   ![Ekran Görüntüsü (715)](https://github.com/user-attachments/assets/9eaa359a-0fd3-4bc9-b382-6ad4dcfb1513)
   ![Ekran Görüntüsü (812)](https://github.com/user-attachments/assets/db6e9d06-b420-45a1-8eff-bf6f0aec6aac)
 
-# Jira screenshots
+## Jira screenshots
   ![Ekran Görüntüsü (713)](https://github.com/user-attachments/assets/cf0f13e3-0680-4923-ba2b-0eec0cdd28ca)
   ![Ekran Görüntüsü (714)](https://github.com/user-attachments/assets/92342b46-c62b-4e27-b4a1-5b6a140453b3)
   ![Ekran Görüntüsü (716)](https://github.com/user-attachments/assets/2e940732-0537-4e25-b76e-b54660fc212d)
 
-# Product Backlog URL: [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
+## Product Backlog URL: [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
 
-# Mobile App Template
+## Mobile App Template
 ![WhatsApp Image 2025-07-06 at 18 09 16](https://github.com/user-attachments/assets/1a95a861-ef91-4697-b422-83ebc07a8444)
 
-# Mobil App First Mockup
+## Mobil App First Mockup
 ![WhatsApp Image 2025-07-06 at 19 30 39](https://github.com/user-attachments/assets/f19711dc-a8b6-4b18-aca9-876dc5e0936d)
 
 
