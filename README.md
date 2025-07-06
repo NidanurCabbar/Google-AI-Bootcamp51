@@ -25,7 +25,7 @@
 
 </details>
 
-![sprints](https://github.com/user-attachments/assets/10b2504e-2cff-487d-8e22-cf8d3a9858b0)
+![sprints](https://github.com/user-attachments/assets/76cfd4b1-adbf-426b-9cf8-88dbe4d476ba)
 
 <details>
   <summary>SPRINT 1</summary>
