@@ -142,7 +142,7 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler
   ![Ekran Görüntüsü (714)](https://github.com/user-attachments/assets/92342b46-c62b-4e27-b4a1-5b6a140453b3)
   ![Ekran Görüntüsü (716)](https://github.com/user-attachments/assets/2e940732-0537-4e25-b76e-b54660fc212d)
 
-# Jira link : [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
+# Product Backlog URL: [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
 
 # Mobile App Template
 ![WhatsApp Image 2025-07-06 at 18 09 16](https://github.com/user-attachments/assets/1a95a861-ef91-4697-b422-83ebc07a8444)
