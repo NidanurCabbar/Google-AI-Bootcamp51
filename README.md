@@ -155,6 +155,29 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler
 ## Sprint 1 Burndown Chart
 [Sprint1_Burndown_Chart_Custom.xlsx](https://github.com/user-attachments/files/21090640/Sprint1_Burndown_Chart_Custom.xlsx)
 
+## Expected point completion within Sprint: 100
+
+## Sprint Notes
+  * Whatsapp grubu kuruldu ve uygun zamanda ilk toplantı yapıldı.
+  * İlk toplantıda sorunlar üzerine konuşuldu ve Github ile Jira dosyaları açıldı.
+  * Görevler dağıtıldı ve whatsapp üzerinden düzenli olarak takipleşildi.
+  * Proje için araştırmalar yapıldı ve en uygun proje seçildi.
+  * Takım ismi, logo, mockup vb uygulama özellikleri oluşturuldu.
+  * Görev dağılımı yapıldı ve ilk sprint çıktıları githuba eklendi.
+    
+## Sprint Review
+  * Açıklamalar, şablonlar ve ihtiyaç duyulan çalışma ortamları üzerine konuşuldu ve güncellemeler yapıldı.
+  * Proje içerisinden gereksiz detaylar çıkarıldı.
+  * Metin dosyaları sayısal verilerle desteklenerek açıklandı.
+
+## Sprint Review Participants
+ * Kadriye Nidanur Cabbar
+ * AyşenurTak
+ * Mert Satıcı
+ * Edanur Tesim
+   
+## Sprint Retrospective
+
 </details>
 
 <details>
