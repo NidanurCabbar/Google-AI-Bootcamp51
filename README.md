@@ -1,6 +1,7 @@
 # Google-AI-Bootcamp51
 ![Tt (1000 x 500 piksel)](https://github.com/user-attachments/assets/e628a182-f128-465a-93de-c78d869c4d48)
 # TEAM NAME
+TOXITECH TEAM
 
 # TEAM MEMBERS
 | Member Name     | Member Task     | Linkedln     |
@@ -35,6 +36,7 @@ Tüm bu sorunlara karşı üretici firmalar çalışmaya ve kazanmaya devam ediy
 
 <details>
   <summary>Product Specifications</summary>
+  
 # Primary Functions
 * İçerik tarama (kamera veya manuel)
   
@@ -148,7 +150,8 @@ Seçtiğimiz projeye ait sprint 1'in son aşamalarını konuşup son dzenlemeler
 ![WhatsApp Image 2025-07-06 at 18 09 16](https://github.com/user-attachments/assets/1a95a861-ef91-4697-b422-83ebc07a8444)
 
 # Mobil App First Mockup
-![WhatsApp Image 2025-07-06 at 19 08 07](https://github.com/user-attachments/assets/dd55c239-df32-4cc1-af54-e8b1a95c603c)
+![WhatsApp Image 2025-07-06 at 19 30 39](https://github.com/user-attachments/assets/f19711dc-a8b6-4b18-aca9-876dc5e0936d)
+
 
 </details>
 
