@@ -217,6 +217,10 @@ Sonraki sprintte neyi farklı yapacağız?
 ## Sprint Review
 
 ## Sprint Review Participants
+   * Kadriye Nidanur Cabbar
+   * AyşenurTak
+   * Mert Satıcı
+   * Edanur Tesim
 
 ## Sprint Retrospective
 
