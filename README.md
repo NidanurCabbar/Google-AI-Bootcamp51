@@ -197,17 +197,29 @@ Sonraki sprintte neyi farklı yapacağız?
 
 <details>
   <summary>SPRINT 2</summary>
+  
 ## Daily Scrum
+  
 ## Meeting screenshots
+
 ## Jira screenshots
+
 ## Mobile App Template
+
 ## Mobil App Second Mockup
+
 ## Sprint 2 Burndown Chart
+
 ## Expected point completion within Sprint: 100
+
 ## Sprint Notes
+
 ## Sprint Review
+
 ## Sprint Review Participants
+
 ## Sprint Retrospective
+
 </details>
 
 <details>
