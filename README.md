@@ -199,10 +199,15 @@ Sonraki sprintte neyi farklı yapacağız?
   <summary>SPRINT 2</summary>
   
 ## Daily Scrum
+  * İLK TOPLANTI 13.07.2025: Jira üzerinden etkileşimlerde bulunarak araştırmalar yaptıktan sonra ilk toplantımızı yaptık. Projede kullanacağımız kaynakları netleştirdik ve yeni görev dağılımlarını oluşturduk. Projenin güncel halini de tartıştık. 
   
 ## Meeting screenshots
+<img width="1920" height="1080" alt="Ekran Görüntüsü (816)" src="https://github.com/user-attachments/assets/1562cd86-36e2-4dc8-8acb-c34feb88ac28" />
 
 ## Jira screenshots
+<img width="1920" height="1080" alt="Ekran Görüntüsü (813)" src="https://github.com/user-attachments/assets/56272c54-a6fc-4c1c-aec8-8cfe06f2f616" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (814)" src="https://github.com/user-attachments/assets/ecf22632-d1e1-4fc9-8c7b-57f0e814e027" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (815)" src="https://github.com/user-attachments/assets/7821d7a2-9b20-46c9-9c28-0e43a0917f6b" />
 
 ## Mobile App Template
 
