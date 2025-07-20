@@ -223,6 +223,12 @@ Sonraki sprintte neyi farklı yapacağız?
 
 ## Sprint 2 Burndown Chart
 
+[Sprint2_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21335556/Sprint2_Burndown_Chart.xlsx)
+
+Sprint2 boyunca belirlenen ve yapılan görevler total 100 puan olmak üzere projedeki etkileri bakımından puanlara bölünmüştür. Sprint süresince yapılan görevlerin miktarına göre görevin yapıldığı iş gününden puanlar Remaining Effort satırında eksiltilmiştir. Ideal Trend satırında ise S * (1 - d/T) formülü üzerinden olması gereken ideal ilerleme miktarı burndown olarak gösterilmiştir. Buna göre ideal ilerlemenin gerisinde ilerlediğimiz ve bu sprint içinde belirlenen 100 puandan 30 puan eksik tamamladığımız görünmektedir.
+
+S * (1 - d/T) formülünde S toplam iş miktarını, d sprintin hangi gününde olduğumuzu, T sprint toplam gün sayısını belirtmektedir.
+
 ## Expected point completion within Sprint: 100
 
 ## Sprint Notes
@@ -244,6 +250,7 @@ Sonraki sprintte neyi farklı yapacağız?
   * AyşenurTak
   * Mert Satıcı
   * Edanur Tesim
+
 
 ## Sprint Retrospective
 Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturulması, data set araştıması ve eksik/fazla noktalarının düzenlenmesini hallettik. Bu aşamada bireysel çalışmalar daha yoğun olduğu için toplantılar sık olmadı. Bir sonraki sprintte kodların düzenlenmesi yapılacak. Data set ortamı oluşturulacak. Karşılaşılan buglar çözülecek ve proje bitimi gerçekleşecek. Ekip içi iletişim çok sağlıklı ilerliyor. Zamanlamayı da iyi kullanıyoruz. Bu da karşılaşılan sorunları kısa zamanda çözmemize olanak tanıyor.
