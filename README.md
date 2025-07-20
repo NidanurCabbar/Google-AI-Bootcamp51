@@ -251,7 +251,7 @@ Sprint2 boyunca 8 görev belirlenmiştir. Bu görevleri toplamı 100 olacak şek
 
 
 ## Sprint Retrospective
-Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturulması, data set araştıması ve eksik/fazla noktalarının düzenlenmesini hallettik. Bu aşamada bireysel çalışmalar daha yoğun olduğu için toplantılar sık olmadı. Bir sonraki sprintte kodların düzenlenmesi yapılacak. Data set ortamı oluşturulacak. Karşılaşılan buglar çözülecek ve proje bitimi gerçekleşecek. Ekip içi iletişim çok sağlıklı ilerliyor. Zamanlamayı da iyi kullanıyoruz. Bu da karşılaşılan sorunları kısa zamanda çözmemize olanak tanıyor.
+Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturulması, mimari tasarım taslağı, data set araştıması ve projenin eksik/fazla noktalarının düzenlenmesini hallettik. Bu aşamada bireysel çalışmalar daha yoğun olduğu için toplantılar sık olmadı. Bir sonraki sprintte kodların düzenlenmesi yapılacak. Data set ortamı oluşturulacak. Karşılaşılan buglar çözülecek ve proje bitimi gerçekleşecek. Ekip içi iletişim çok sağlıklı ilerliyor. Zamanlamayı da iyi kullanıyoruz. Bu da karşılaşılan sorunları kısa zamanda çözmemize olanak tanıyor.
 </details>
 
 <details>
