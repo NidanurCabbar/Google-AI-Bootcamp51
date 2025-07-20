@@ -230,7 +230,7 @@ Sonraki sprintte neyi farklı yapacağız?
 * "Figma" kullanılarak yapılacak Arayüz Mockup'ının taslağının bu Sprint'te tamamlanması hedeflendi ve hedefe ulaşıldı.
 * Front-End için gerekli olan programların indirilip, çalıştırılması hedeflendi ve hedefe ulaşıldı.
 * Planlamada olan hedeflerde esneklik sağlanmıştır ve sonucunda ekibin bir önceki Sprint'e göre daha iyi iletişim kurduğu ve çalıştığı Sprint süreci elde edilmiştir.
-* 
+  
 ## Sprint Review Participants
    * Kadriye Nidanur Cabbar
    * AyşenurTak
