@@ -218,9 +218,17 @@ Sonraki sprintte neyi farklı yapacağız?
 ## Expected point completion within Sprint: 100
 
 ## Sprint Notes
-
+*İkinci Sprint için toplantı yapıldı.
+*İkinci Sprint'in ilk toplantısında proje için kullanılacak araç ve yazılımlar ekip üyelerinin yetkinlikleri doğrultusunda tartışıldı ve belirlendi.
+*Front-End için "Expo", Back-End için "Django REST Framework", Arayüz Mockup'u için "Figma", Veri Tabanı için ise, "PostgreSQL" kullanılmasına karar verildi.
+*İlk toplantıda, ekip üyelerine görevler dağıtıldı ve bazı ekip üyelerinin eksik olduğu konularda araştırma yapması ve diğer ekip üyelerince desteklenmesine karar verildi.
+*İkinci Sprint'in ikinci toplantısında ekip üyelerinin güncel durumları hakkında konuşuldu ve Sprint teslim tarihine kadar yapılacaklar hakkında konuşuldu ve görev dağılımı yapıldı.
+*İkinci Sprint'in son toplantısında Sprint çıktılarının yazıldığı GitHub'taki "READ.ME" dosyasına dair son kontroller yapıldı.
 ## Sprint Review
-
+* İkinci Sprint'te ekip olarak bir toplantı yapıldı ve proje iskeleti tam anlamıyla oluşturuldu.
+* "Figma" kullanılarak yapılacak Arayüz Mockup'ının taslağının bu Sprint'te tamamlanması hedeflendi ve hedefe ulaşıldı.
+* Front-End için gerekli olan programların indirilip, çalıştırılması hedeflendi ve hedefe ulaşıldı.
+* Planlamada olan hedeflerde esneklik sağlanmıştır ve sonucunda ekibin bir önceki Sprint'e göre daha iyi iletişim kurduğu ve çalıştığı Sprint süreci elde edilmiştir.
 ## Sprint Review Participants
    * Kadriye Nidanur Cabbar
    * AyşenurTak
