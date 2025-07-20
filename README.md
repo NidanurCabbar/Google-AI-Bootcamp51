@@ -201,18 +201,25 @@ Sonraki sprintte neyi farklı yapacağız?
 ## Daily Scrum
   * İLK TOPLANTI 13.07.2025: Jira üzerinden etkileşimlerde bulunarak araştırmalar yaptıktan sonra ilk toplantımızı yaptık. Projede kullanacağımız kaynakları netleştirdik ve yeni görev dağılımlarını oluşturduk. Projenin güncel halini de tartıştık.
   * İKİNCİ TOPLANTI 16.07.2025: Google Meets üzerinden toplanarak Figma üzerinde çalıştık. Olası tasarımlar hakkında konuştuk.
-  
+  * ÜÇÜNCÜ TOPLANTI 19.07.2025: Sprint 2 için ulaşılan noktada neler elde ettiğimiz ve nelerin eksik kaldığı konuşuldu. Github README için düzenlemeler üzerinde konuşuldu. Görev dağılımları üzerinde tartışıldı ve görevler detaylandırıldı. Jira üzerinden atamalar yapıldı.
+    
 ## Meeting screenshots
 <img width="1920" height="1080" alt="Ekran Görüntüsü (816)" src="https://github.com/user-attachments/assets/1562cd86-36e2-4dc8-8acb-c34feb88ac28" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (819)" src="https://github.com/user-attachments/assets/2d05850c-823d-49e5-a428-952ddbd7ce10" />
 
 ## Jira screenshots
 <img width="1920" height="1080" alt="Ekran Görüntüsü (813)" src="https://github.com/user-attachments/assets/56272c54-a6fc-4c1c-aec8-8cfe06f2f616" />
 <img width="1920" height="1080" alt="Ekran Görüntüsü (814)" src="https://github.com/user-attachments/assets/ecf22632-d1e1-4fc9-8c7b-57f0e814e027" />
 <img width="1920" height="1080" alt="Ekran Görüntüsü (815)" src="https://github.com/user-attachments/assets/7821d7a2-9b20-46c9-9c28-0e43a0917f6b" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (820)" src="https://github.com/user-attachments/assets/c251cea0-2e5d-406e-9562-7b0db2cdabf2" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (823)" src="https://github.com/user-attachments/assets/641cc21a-985e-4d89-a3e4-37ae884d8fad" />
 
-## Mobile App Template
+## Mobile App Template VSC - AndroidStudio
+<img width="1920" height="1080" alt="Ekran Görüntüsü (821)" src="https://github.com/user-attachments/assets/3df7e3a5-c03e-41cf-b2f0-7a465457bf3c" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (824)" src="https://github.com/user-attachments/assets/6ee26922-78ca-42b3-8e75-3bc881c4e4fd" />
 
 ## Mobil App Second Mockup
+<img width="1920" height="1080" alt="Ekran Görüntüsü (818)" src="https://github.com/user-attachments/assets/8ab5a3dd-82ae-4a89-a782-1c3a756c92a2" />
 
 ## Sprint 2 Burndown Chart
 
@@ -228,18 +235,18 @@ Sonraki sprintte neyi farklı yapacağız?
 
 ## Sprint Review
 * İkinci Sprint'te ekip olarak bir toplantı yapıldı ve proje iskeleti tam anlamıyla oluşturuldu.
-* "Figma" kullanılarak yapılacak Arayüz Mockup'ının taslağının bu Sprint'te tamamlanması hedeflendi ve hedefe ulaşıldı.
-* Front-End için gerekli olan programların indirilip, çalıştırılması hedeflendi ve hedefe ulaşıldı.
+* "Figma" kullanılarak yapılacak güncel Arayüz Mockup'ının taslağının bu Sprint'te tamamlanması hedeflendi ve hedefe ulaşıldı.
+* Front-End için gerekli olan programların indirilip, çalıştırılması hedeflendi ve dosyalar oluşturuldu.
 * Planlamada olan hedeflerde esneklik sağlanmıştır ve sonucunda ekibin bir önceki Sprint'e göre daha iyi iletişim kurduğu ve çalıştığı Sprint süreci elde edilmiştir.
   
 ## Sprint Review Participants
-   * Kadriye Nidanur Cabbar
-   * AyşenurTak
-   * Mert Satıcı
-   * Edanur Tesim
+  * Kadriye Nidanur Cabbar
+  * AyşenurTak
+  * Mert Satıcı
+  * Edanur Tesim
 
 ## Sprint Retrospective
-
+Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturulması, data set araştıması ve eksik/fazla noktalarının düzenlenmesini hallettik. Bu aşamada bireysel çalışmalar daha yoğun olduğu için toplantılar sık olmadı. Bir sonraki sprintte kodların düzenlenmesi yapılacak. Data set ortamı oluşturulacak. Karşılaşılan buglar çözülecek ve proje bitimi gerçekleşecek. Ekip içi iletişim çok sağlıklı ilerliyor. Zamanlamayı da iyi kullanıyoruz. Bu da karşılaşılan sorunları kısa zamanda çözmemize olanak tanıyor.
 </details>
 
 <details>
