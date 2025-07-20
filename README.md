@@ -225,9 +225,7 @@ Sonraki sprintte neyi farklı yapacağız?
 
 [Sprint2_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21335556/Sprint2_Burndown_Chart.xlsx)
 
-Sprint2 boyunca belirlenen ve yapılan görevler total 100 puan olmak üzere projedeki etkileri bakımından puanlara bölünmüştür. Sprint süresince yapılan görevlerin miktarına göre görevin yapıldığı iş gününden puanlar Remaining Effort satırında eksiltilmiştir. Ideal Trend satırında ise S * (1 - d/T) formülü üzerinden olması gereken ideal ilerleme miktarı burndown olarak gösterilmiştir. Buna göre ideal ilerlemenin gerisinde ilerlediğimiz ve bu sprint içinde belirlenen 100 puandan 30 puan eksik tamamladığımız görünmektedir.
-
-S * (1 - d/T) formülünde S toplam iş miktarını, d sprintin hangi gününde olduğumuzu, T sprint toplam gün sayısını belirtmektedir.
+Sprint2 boyunca 8 görev belirlenmiştir. Bu görevleri toplamı 100 olacak şekilde projenin üzerindeki etkileri bakımından puanlara böldük. Buna göre "Proje fikrini alt alanları üzerinde geliştirme, Kullanılabilir techstackleri belirleme, Veri kaynakları bulma, Proje stacklerinin karar verilmesi" gibi görevler karar süreçleri ve araştırmalar olduğundan 10'ar puandan, "Figma ile UI tasarım, Expo ve frontend araçlarının kurulumu, Backend kurulumunun yapılması, Veri seti, veritabanı hazırlama" görevleri proje geliştiriminde doğrudan etki eden geliştirme süreçleri olduğundan 15'er puandan hesaplanmışlardır.
 
 ## Expected point completion within Sprint: 100
 
