@@ -199,7 +199,8 @@ Sonraki sprintte neyi farklı yapacağız?
   <summary>SPRINT 2</summary>
   
 ## Daily Scrum
-  * İLK TOPLANTI 13.07.2025: Jira üzerinden etkileşimlerde bulunarak araştırmalar yaptıktan sonra ilk toplantımızı yaptık. Projede kullanacağımız kaynakları netleştirdik ve yeni görev dağılımlarını oluşturduk. Projenin güncel halini de tartıştık. 
+  * İLK TOPLANTI 13.07.2025: Jira üzerinden etkileşimlerde bulunarak araştırmalar yaptıktan sonra ilk toplantımızı yaptık. Projede kullanacağımız kaynakları netleştirdik ve yeni görev dağılımlarını oluşturduk. Projenin güncel halini de tartıştık.
+  * İKİNCİ TOPLANTI 16.07.2025: Google Meets üzerinden toplanarak Figma üzerinde çalıştık. Olası tasarımlar hakkında konuştuk.
   
 ## Meeting screenshots
 <img width="1920" height="1080" alt="Ekran Görüntüsü (816)" src="https://github.com/user-attachments/assets/1562cd86-36e2-4dc8-8acb-c34feb88ac28" />
