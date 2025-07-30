@@ -1,0 +1,14 @@
+Django
+python-dotenv
+django-environ
+pydantic
+python-social-auth
+djangorestframework
+django-cors-headers
+djangorestframework
+# psycopg2 # postgresql adapter
+asyncio
+django-environ
+psycopg2-binary
+db-sqlite3
+drf-yasg

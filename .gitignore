@@ -1,0 +1,10 @@
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+not.txt
+mylog.txt
+db.sqlite3
+migrations/
+.env
