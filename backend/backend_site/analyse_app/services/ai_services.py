@@ -100,7 +100,7 @@ def analyse_ingredients_with_gemini(extracted_text: str, user_sensitivities: str
         raise Exception(f"Gemini API çağrısı sırasında hata oluştu:\n{e}")
 
 
-def extract_ingredients(image_file)-> str:
+def extract_ingredients(image_bytes:bytes)-> str:
     """
     Mini OCR tool.
 
@@ -108,8 +108,10 @@ def extract_ingredients(image_file)-> str:
     
     """
     try: 
-        content = image_file.read()
-        image = vision.Image(content=content)
+        if hasattr(image_bytes, "getvalue"):
+            image_bytes = image_bytes.getvalue()
+
+        image = vision.Image(content=image_bytes)
 
         # Perform label detection
         response = VISION_CLIENT.text_detection(image=image)

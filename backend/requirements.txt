@@ -4,11 +4,20 @@ django-environ
 pydantic
 python-social-auth
 djangorestframework
+djangorestframework-simplejwt
+dj-rest-auth
+django-allauth
 django-cors-headers
-djangorestframework
+django-rest-swagger
 # psycopg2 # postgresql adapter
 asyncio
 django-environ
 psycopg2-binary
 db-sqlite3
 drf-yasg
+pillow
+pytesseract
+google-cloud-vision
+google-generativeai
+google-genai
+

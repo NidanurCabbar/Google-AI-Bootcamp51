@@ -97,6 +97,21 @@ def getUserByID(payload:dict) -> User|NotFound :
         raise NotFound("User is not found!")
     return user
 
+def getUserProfile(user_id:int) -> Profile|NotFound:
+    """
+    Returns Profile with the user id provided in params.
+
+    If there is no Profile with the ID the raise NotFound (404)
+
+    params:
+        payload : User ID
+    """
+    profile = Profile.objects.filter(user=user_id).first()
+    if not profile:
+        raise NotFound("User's profile is not found!")
+    return profile
+
+
 def get_age_category(age: int) -> str:
     if age < 0:
         raise ValueError("Age must be a non-negative integer.")

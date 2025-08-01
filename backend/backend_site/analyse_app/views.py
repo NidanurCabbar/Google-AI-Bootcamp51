@@ -69,8 +69,10 @@ class GetAnalyse(APIView):
         if not image_file:
             return Response({"error": "image dosyası gereklidir."}, status=status.HTTP_400_BAD_REQUEST)
         try:
+            image_bytes = image_file.read()
+
             # OCR işlemi
-            extracted_text = extract_ingredients(image_file=image_file)
+            extracted_text = extract_ingredients(image_bytes=BytesIO(image_bytes))
 
             sensivities = profile.sensitivity if profile.sensitivity else "None" 
             # ask Gemini
@@ -88,7 +90,8 @@ class GetAnalyse(APIView):
             ext = os.path.splitext(image_file.name)[-1]
             filename = f"{uuid.uuid4()}{ext}"
             path = f"uploads/product_images/{filename}"
-            full_path = default_storage.save(path, ContentFile(image_file.read()))
+            full_path = default_storage.save(path, ContentFile(image_bytes))  
+        
             image_url = request.build_absolute_uri(default_storage.url(full_path))
 
             # save analysis
