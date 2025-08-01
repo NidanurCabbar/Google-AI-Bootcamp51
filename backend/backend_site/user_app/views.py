@@ -21,6 +21,7 @@ from drf_yasg.utils import swagger_auto_schema
 # other requirements
 import datetime, os
 import environ
+import jwt
 
 # models, serializers and other dependencies
 from django.contrib.auth.models import User
@@ -29,6 +30,46 @@ from .models import Profile
 env = environ.Env()
 environ.Env.read_env(os.path.join(settings.BASE_DIR, '.env'))
 
+
+def generateToken(user:User)->str:
+    """
+    Genaretes JWT Token with user id
+
+    Token expires after 60 minutes
+
+    Returns generated jwt token as a string.
+
+    params:
+        user: object of the User Model
+    """
+    payload = {
+        "id": user.id,
+        "exp": datetime.datetime.now() + datetime.timedelta(minutes=60),
+        "iat": datetime.datetime.now()
+    }
+    # os.environ.get('JWT_SECRET')
+    token = jwt.encode(payload, env("JWT_SECRET"), algorithm="HS256")
+    return token
+
+def isTokenValid(token:str)-> dict|AuthenticationFailed|NotFound:
+    """
+    Decodes provided JWT Token to payload.
+
+    If token is valid or provided returns payload, in else case raise NotFound (404) or AuthenticationFailed (401)
+
+    Return param:
+        payload : dict {'id', 'exp', 'iat'}
+
+    params:
+        token : JWT token as a str  
+    """
+    if not token:
+        raise NotFound("Authentication token is missing.")
+    try:
+        payload = jwt.decode(token, env("JWT_SECRET"), algorithms=["HS256"])
+    except jwt.ExpiredSignatureError:
+        raise AuthenticationFailed("Invalid or expired token!")
+    return payload
 
 def getUserByEmail(email:str) -> User|AuthenticationFailed:
     """
@@ -218,16 +259,25 @@ class LoginView(APIView):
 
         username = request.data['username']
         password = request.data['password']
+        print(username)
 
         django_user = authenticate(request=request, username=username, password=password) 
         if django_user is None:
             raise AuthenticationFailed("Invalid credentials, try again or please register")
         login(request=request, user=django_user)
 
-        return Response(
-                {'message': 'User logged in successfully'}, 
-                status=status.HTTP_200_OK)
-    
+        # JWT configuration
+        token = generateToken(user= django_user)
+        response = Response()
+        # cookie set backend only
+        response.set_cookie(key="jwt", value=token, httponly=True)
+        response.data = {
+            "jwt": token,
+            'message': 'User logged in successfully',
+        }
+        response.status_code = status.HTTP_200_OK
+        return response
+
 
 class LogoutView(APIView):
     
@@ -260,11 +310,18 @@ class LogoutView(APIView):
     )
     
     def get(self, request):
+
+        response = Response()
+        # delete token from cookies
+        response.delete_cookie("jwt")
+        response.data= {
+            "message": "User logged out successfully"
+        }
+        response.status_code = status.HTTP_200_OK
+        # logout with django auth
         logout(request=request)
-        return Response(
-                {'message': 'User logged out successfully'}, 
-                status=status.HTTP_200_OK)
-    
+        return response
+
 
 class ProfileView(APIView):
     permission_classes = [IsAuthenticated]
@@ -314,7 +371,13 @@ class ProfileView(APIView):
     )
 
     def get(self, request):
-        user = request.user
+        token = request.COOKIES.get("jwt")
+        print(token)
+        payload = isTokenValid(token=token)
+        print(payload)
+        user = getUserByID(payload)
+        print(user)
+
         user_serializer = UserSerializer(user)
         profile_serializer = ProfileSerializer(user.profile)
         result = user_serializer.data | profile_serializer.data
@@ -349,7 +412,10 @@ class ProfileView(APIView):
     )
     
     def delete(self, request):
-        user = request.user
+        token = request.COOKIES.get("jwt")
+        payload = isTokenValid(token=token)
+        user = getUserByID(payload)
+
         user.delete()
         return Response(
                 {'message': 'User deleted successfully'}, 
@@ -442,7 +508,10 @@ class ProfileEditView(APIView):
     )
 
     def put(self, request):
-        user = request.user
+        token = request.COOKIES.get("jwt")
+        payload = isTokenValid(token=token)
+        user = getUserByID(payload)
+
         data = request.data
         profile_data = data.pop('profile', {})
         profile_data['user'] = user.id

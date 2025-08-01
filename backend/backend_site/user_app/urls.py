@@ -12,4 +12,4 @@ urlpatterns = [
     # GET, DELETE user profile
     path('me/', ProfileView.as_view(), name='profile'),
     path('me/edit/', ProfileEditView.as_view(), name='edit'),
-]   
+]       
