@@ -36,7 +36,7 @@ from django.contrib.auth.models import User
 from .models import ProductAnalysis
 from .serializers import ProductAnalysisSerializer
 from .services.ai_services import analyse_ingredients_with_gemini, extract_ingredients
-from user_app.views import isTokenValid, getUserByEmail, getUserByID
+from user_app.views import isTokenValid, getUserByEmail, getUserByID, getUserProfile
 
 
 class GetAnalyse(APIView):
@@ -63,6 +63,7 @@ class GetAnalyse(APIView):
         token = request.COOKIES.get("jwt")
         payload = isTokenValid(token=token)
         user = getUserByID(payload)
+        profile = getUserProfile(user.id)
 
         image_file = request.FILES.get("image")
         if not image_file:
@@ -71,8 +72,9 @@ class GetAnalyse(APIView):
             # OCR işlemi
             extracted_text = extract_ingredients(image_file=image_file)
 
+            sensivities = profile.sensitivity if profile.sensitivity else "None" 
             # ask Gemini
-            llm_result = analyse_ingredients_with_gemini(extracted_text)
+            llm_result = analyse_ingredients_with_gemini(extracted_text=extracted_text, user_sensitivities=sensivities)
             toxic_score = llm_result.get("toksisite_skoru", 5)
             toxic_ingredients = llm_result.get("tehlikeli_maddeler", [])
             general_review = llm_result.get("genel_aciklama", "")
@@ -99,7 +101,18 @@ class GetAnalyse(APIView):
                 general_review=general_review
             )
             serializer = ProductAnalysisSerializer(analysis)
-            return Response(serializer.data, status=status.HTTP_200_OK)
+            data = serializer.data  
+
+            response_content = {
+                "user"              : data["user"],
+                "toxic_score"       : data["toxic_score"],
+                "toxic_ingredients" : data["toxic_ingredients"],
+                "general_review"    : data["general_review"],
+                "extracted_text"    : data["extracted_text"],
+                "image_url"         : data["image_url"],
+                "created_at"        : data["created_at"],
+            }
+            return Response(response_content, status=status.HTTP_200_OK)
 
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

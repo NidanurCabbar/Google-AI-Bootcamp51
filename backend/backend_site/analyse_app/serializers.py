@@ -9,4 +9,3 @@ class ProductAnalysisSerializer(serializers.ModelSerializer):
         model = ProductAnalysis
         fields = '__all__'
         read_only_fields = ['user', 'extracted_text', 'toxic_score', 'toxic_ingredients', 'created_at']
-

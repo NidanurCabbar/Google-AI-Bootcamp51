@@ -27,27 +27,32 @@ generativeai.configure(api_key=GEMINI_API_KEY)
 
 
 SYSTEM_PROMPT = """
-Sen bir toksisite analiz uzmanısın. Kullanıcının gönderdiği ürün ambalajının arkasında yazan metni analiz ederek, ürün içerik bileşenlerinin cilt, solunum, hormon veya genel sağlık açısından toksik olup olmadığını değerlendiriyorsun.
+Sen bir toksisite analiz uzmanısın. Kullanıcının gönderdiği ürün ambalajı üzerinde yer alan içerik listesini analiz ederek, ürün içerik bileşenlerinin cilt, solunum, hormon veya genel sağlık açısından toksik olup olmadığını değerlendiriyorsun.
 
 Görevin:
-1. İçerikte yer alan zararlı, şüpheli veya alerjen olabilecek maddeleri tespit etmek
-2. Genel toksisite hakkında açıklayıcı, sade ve anlaşılır bir değerlendirme yapmak
-3. İçeriğin toksisite seviyesini 1-10 arasında bir puanla belirtmek (1: güvenli, 10: çok toksik)
+1. İçerikte yer alan zararlı, şüpheli, hormon bozucu, alerjen veya potansiyel olarak toksik maddeleri belirlemek.
+2. Kullanıcının **eğer belirttiyse hassasiyetlerine özel** olarak bu maddeler hakkında uyarılarda bulunmak (örneğin: parfüm, alkol, paraben, sülfat, gluten vs.).
+3. Genel bir toksisite değerlendirmesi sunmak; sade, anlaşılır ve bilimsel temelli açıklamalar yap.
+4. İçeriğin toksisite seviyesini 1 ile 10 arasında bir puanla değerlendir (1: tamamen güvenli, 10: çok toksik).
 
 Cevabını **mutlaka aşağıdaki JSON formatında ve Türkçe olarak** ver:
 
 ```json
 {
-  "genel_aciklama": "...", 
-  "toksisite_skoru": 0-10 arasında bir sayı (tam sayı), 
+  "genel_aciklama": "Açıklayıcı değerlendirme burada olacak.", 
+  "toksisite_skoru": 0-10 arasında bir tam sayı, 
   "tehlikeli_maddeler": ["madde_1", "madde_2", "..."]
 }
-```
-Cevabın bu yapıya birebir uymalıdır. Açıklaman Türkçe olmalı. Eğer içerikte tehlikeli bir madde yoksa tehlikeli_maddeler listesi boş olmalıdır. Toksisite skoru mutlaka verilmelidir.
+Kurallar:
+
+* Açıklama Türkçe olmalı.
+* "tehlikeli_maddeler" listesi yalnızca gerçekten endişe uyandıran maddeleri içermelidir. Eğer içerik güvenliyse bu liste boş olabilir.
+* "toksisite_skoru" mutlaka verilmeli ve ürünün genel güvenliğini sayısal olarak yansıtmalıdır.
+* Kullanıcının belirttiği hassasiyetlere mutlaka özel bir dikkat göster.
 """
+
+
 try:
-    # Modelin generate_content metodunu kullanarak doğrudan etkileşim kurabiliriz.
-    # system_instruction parametresi, sistem rolü atamak için kullanılır.
     GEMINI_MODEL = generativeai.GenerativeModel(
     model_name='gemini-2.0-flash',
     system_instruction=SYSTEM_PROMPT
@@ -60,14 +65,17 @@ except Exception as e:
     exit()
 
 
-def analyse_ingredients_with_gemini(ingredient_text: str):
+def analyse_ingredients_with_gemini(extracted_text: str, user_sensitivities: str):
     """
     Gemini API'ye doğrudan metin analizi isteği gönderir.
     """
-    if not ingredient_text.strip():
+    if not extracted_text.strip():
         raise ValueError("Analiz edilecek içerik metni boş olamaz.")
 
-    user_prompt = f"Ürün ambalajının arkasında yazan metin:\n{ingredient_text}"
+    user_prompt = f"""Ürün ambalajının arkasında yazan metin: {extracted_text}
+    Kullanıcının özel hassasiyetleri: {user_sensitivities} 
+    Yukarıdaki metni analiz et ve içeriklerin toksisite durumunu değerlendir.
+    """
 
     try:
         response = GEMINI_MODEL.generate_content(user_prompt)
@@ -119,8 +127,8 @@ def extract_ingredients(image_file)-> str:
     
 
 
-# def analyse_ingredients_with_gemini(ingredient_text: str):
-#     prompt = f"Ürün mbalajının arkasında yazan metin:\n{ingredient_text}"
+# def analyse_ingredients_with_gemini(extracted_text: str):
+#     prompt = f"Ürün mbalajının arkasında yazan metin:\n{extracted_text}"
 
 #     payload = {
 #         "contents": [
