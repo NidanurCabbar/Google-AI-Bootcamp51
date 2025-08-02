@@ -260,7 +260,13 @@ Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturul
 <details>
   <summary>SPRINT 3</summary>
   
-## Daily Scrum 
+## Daily Scrum
+
+ * İLK TOPLANTI / 27.07.2025 :
+Bu toplantıda proje kapsamında yapılacak çalışmalar değerlendirildi. İlk olarak, uygulamada yer alması uygun olmayan maddelerin listelenmesi konusu ele alındı. Ardından uygulamanın Figma tasarımına analiz sayfalarının eklenmesi gerektiği üzerinde duruldu. Ayrıca, frontend ve backend geliştirmeleri için gerekli yazılım ortamlarının kurulması planlandı ve bu iki yapının nasıl entegre edileceği konusunda ortak bir karar alındı.
+
+ * TOPLANTI / 01.08.2025 :
+İkinci toplantıda uygulamanın tanıtım yazısı incelenerek düzenlemeler yapıldı. Uygulamanın son hali tamamlanarak geliştirilen yazılım kodlarıyla entegre edildi. Proje teslimine yönelik son detaylar gözden geçirildi ve belgeleme sürecinin sağlıklı bir şekilde ilerleyebilmesi için net bir görev dağılımı yapıldı.
 
 ## Meeting screenshots 
 <img width="1920" height="1080" alt="Ekran Görüntüsü (826)" src="https://github.com/user-attachments/assets/c51fc81b-55a2-4b2b-ae49-a547e1a0eb1d" />
