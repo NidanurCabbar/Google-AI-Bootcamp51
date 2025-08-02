@@ -256,5 +256,22 @@ Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturul
 
 <details>
   <summary>SPRINT 3</summary>
+  
+## Daily Scrum 
+
+## Meeting screenshots 
+<img width="1920" height="1080" alt="Ekran Görüntüsü (826)" src="https://github.com/user-attachments/assets/c51fc81b-55a2-4b2b-ae49-a547e1a0eb1d" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (924)" src="https://github.com/user-attachments/assets/51f57d89-7a19-407b-8107-76a505c7d1dc" />
+
+## Jira screenshots
+<img width="1920" height="1080" alt="Ekran Görüntüsü (923)" src="https://github.com/user-attachments/assets/dd0ff2e2-c9d3-4b86-815a-d4393778458d" />
+
+## Product Backlog URL: [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
+
+## Mobile App Template
+
+## Mobil App Second Mockup
+## Sprint 2 Burndown Chart 
+[Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
 
 </details>
