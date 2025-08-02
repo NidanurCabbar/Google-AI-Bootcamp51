@@ -270,7 +270,9 @@ Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturul
 
 ## Mobile App Template
 
-## Mobil App Second Mockup
+## Mobil App Finish Mockup
+<img width="1025" height="791" alt="Ekran görüntüsü 2025-08-02 171257" src="https://github.com/user-attachments/assets/80a4fec4-646a-4d83-8637-58f979782dd5" />
+
 ## Sprint 2 Burndown Chart 
 [Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
 
