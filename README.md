@@ -221,6 +221,9 @@ Sonraki sprintte neyi farklı yapacağız?
 ## Mobil App Second Mockup
 <img width="1920" height="1080" alt="Ekran Görüntüsü (818)" src="https://github.com/user-attachments/assets/8ab5a3dd-82ae-4a89-a782-1c3a756c92a2" />
 
+## Backend System Architecture 
+<img width="1209" height="742" alt="image" src="https://github.com/user-attachments/assets/ceb2b9d1-acc7-4a1b-8a8d-d44a856e9130" />
+
 ## Sprint 2 Burndown Chart
 
 [Sprint2_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21335556/Sprint2_Burndown_Chart.xlsx)
@@ -272,6 +275,9 @@ Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturul
 
 ## Mobil App Finish Mockup
 <img width="1025" height="791" alt="Ekran görüntüsü 2025-08-02 171257" src="https://github.com/user-attachments/assets/80a4fec4-646a-4d83-8637-58f979782dd5" />
+
+## Backend System Architecture 
+
 
 ## Sprint 2 Burndown Chart 
 [Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
