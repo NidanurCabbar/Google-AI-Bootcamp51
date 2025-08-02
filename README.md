@@ -277,7 +277,7 @@ Sprint 2 aşamasında projemizin ön planlaması, gerekli dosyaların oluşturul
 <img width="1025" height="791" alt="Ekran görüntüsü 2025-08-02 171257" src="https://github.com/user-attachments/assets/80a4fec4-646a-4d83-8637-58f979782dd5" />
 
 ## Backend System Architecture 
-
+<img width="1041" height="689" alt="image" src="https://github.com/user-attachments/assets/18e7595e-4533-48fb-8c52-6752bfb294f4" />
 
 ## Sprint 2 Burndown Chart 
 [Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
