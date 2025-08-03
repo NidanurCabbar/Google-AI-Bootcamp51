@@ -288,6 +288,8 @@ Bu toplantıda proje kapsamında yapılacak çalışmalar değerlendirildi. İlk
 ## Sprint 2 Burndown Chart 
 [Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
 
+Sprint3 boyunca 8 görev belirlenmiştir. Bu görevleri toplamı 100 olacak şekilde projenin üzerindeki etkileri bakımından puanlara böldük. Buna göre "Veri tabanı araştırma ve oluşturma, VSC'da kurulumu, Android Studio'da emilatör kurulumu, Tanıtım hikayesinin yazılması" gibi görevler karar süreçleri ve araştırmalar olduğundan 10'ar puandan, "Front-end kodlarının hazırlanması ve düzenlenmesi,Back-end kodlarının hazırlanması ve düzenlenmesi, Figma'da oluşturulan arayüz'ün düzenlenmesi, Projenin sunuma hazırlanması" görevleri proje geliştiriminde doğrudan etki eden geliştirme süreçleri olduğundan 15'er puandan hesaplanmışlardır.
+
 ## Sprint Notes
  * Bu son sprint boyunca bireysel görevlerimize odaklandık. Sağlık alanında bir proje yaptığımız için veri tabanı için ek araştırma yaptık.
  * Proje için nelerin kalması nelerin çıkarılması ve nelerin düzenlenmesi gerektiğini tartıştık.
