@@ -288,4 +288,21 @@ Bu toplantıda proje kapsamında yapılacak çalışmalar değerlendirildi. İlk
 ## Sprint 2 Burndown Chart 
 [Sprint3_Burndown_Chart.xlsx](https://github.com/user-attachments/files/21558855/Sprint3_Burndown_Chart.xlsx)
 
+## Sprint Notes
+ * Bu son sprint boyunca bireysel görevlerimize odaklandık. Sağlık alanında bir proje yaptığımız için veri tabanı için ek araştırma yaptık.
+ * Proje için nelerin kalması nelerin çıkarılması ve nelerin düzenlenmesi gerektiğini tartıştık.
+ * Ekip için 2li gruplar halinde çalışma gereksinimleri olduğunda ayrı ayrı birleştik.
+ * Projenin genel amacına yönelik hikayemizi oluşturduk.
+  
+## Sprint Review
+ * Proje için bazı kodlar oluşturuldu.
+ * Tasarımında düzenleme yapıldı.
+ * Geliştirilebilir yönleri tartışıldı.
+   
+## Sprint Review Participants
+ * Kadriye Nidanur Cabbar
+ * AyşenurTak
+ * Mert Satıcı
+ * Edanur Tesim
+   
 </details>
