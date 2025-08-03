@@ -277,8 +277,8 @@ Bu toplantıda proje kapsamında yapılacak çalışmalar değerlendirildi. İlk
 
 ## Product Backlog URL: [Jira](https://nidanurcbbr.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTViYTJlNzE2ODhkNDc4NWFiZmM3NjM2MjkyZGJiNjAiLCJwIjoiaiJ9)
 
-## Mobile App Template
-
+## Mobile App Template - Youtube Link
+https://youtu.be/m0rxW3O7xl0?si=XuEuzywZn3l7yKzM
 ## Mobil App Finish Mockup
 <img width="1025" height="791" alt="Ekran görüntüsü 2025-08-02 171257" src="https://github.com/user-attachments/assets/80a4fec4-646a-4d83-8637-58f979782dd5" />
 
